@@ -62,6 +62,7 @@ Proprietary apps will be marked as such, as well as apps that work with device t
 - [OpenReads](https://github.com/mateusz-bak/openreads) ^[Monet] ^[Book tracker and scanner. Can sync with Goodreads]
 - [ReadYou](https://github.com/Ashinch/ReadYou)^[Monet] ^[Bring back RSS feeds]
 - [Librera Reader](https://github.com/foobnix/LibreraReader) ^[Works amazing with e-ink devices or for simple document viewing and TTS]
+- [Aard 2](https://github.com/itkach/aard2-android) ^[MASSIVELY customizable offline dictionary. Perfect for ereaders or tablets with a large amount of space, as you can add the entirety of en.Wiktionary's 2.5 gb database if you choose] 
 
 ## Music & Podcasts 🎷 
 - [Gramophone](https://github.com/AkaneTan/Gramophone)^[Monet] ^[offline music player brrr]
@@ -113,4 +114,16 @@ Proprietary apps will be marked as such, as well as apps that work with device t
 - [Prayer Watchface](https://play.google.com/store/apps/details?id=com.devlomi.prayerwatchface) 
 # Terminal
 # Linux (Arch)
+
+I use [Garuda Linux](https://garudalinux.org/) as my daily Linux distro because I'm too lazy to set everything up with stock Arch/Endeavor or fix constant random breakages with Manjaro. Although Arch takes maintenance and modesty with installing random packages, it is good to teach oneself how to use Linux -- I'm of the philosophy that Linux is fundamentally different in how you use it from Windows or Mac, and that Linux should very much be something that is addressed and specific to you, even if it takes slightly less convenience at first from Windows, it gives far less heartaches in the future. 
+
+With that said, I will add a simple `pacman` command for everything I install. For all new penguins or old penguins, I strongly recommend doing something similar so you have a record of everything you install in case you need to migrate systems for any reason or uninstall old packages that accumulate on your computer for years. It takes barely a second to simply type or delete a package into a text file when you already do so in your terminal to install packages.
+
+And for those who use graphical installers for everything, just use [yay](https://github.com/Jguer/yay) or [paru](https://github.com/Morganamilo/paru). Your life will be so much quicker.
+
+As of Dec 5 2024: 
+```sudo pacman -S brave-bin beeper-latest-bin newsboat calc xfce4 xfce4-goodies ani-cli mullvad-vpn-cli neovim steam linux-lts obsidian mutt docker syncthing termusic libreoffice-fresh wttr epr-git keyguard-git flatpak mikhak-fonts thunderbirdscopa xpytile-git```
+
+
+
 # Cross-Platform
